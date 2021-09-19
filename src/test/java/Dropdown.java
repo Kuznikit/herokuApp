@@ -3,12 +3,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 import java.util.List;
+
 import static org.testng.Assert.*;
 
 public class Dropdown extends BaseTest {
 
     @Test
-    public void dropdownList() {
+    public void dropdownList(){
         //Dropdown - Взять все элементы дроп-дауна и проверить их наличие. Выбрать первый, проверить, что он выбран, выбрать второй, проверить, что он выбран
         //Локатор By.id("dropdown")
         driver.get("http://the-internet.herokuapp.com/dropdown");
